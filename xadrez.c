@@ -22,11 +22,11 @@ void moverTorre(int casas){
 void moverBispo(int casas){
     
         //Um loop para o movimento vertical
-        for(int movimentov = 0; movimentov < 1; movimentov++){
+        for(int movimento = 0; movimento < 1; movimento++){
             printf("Cima, ");
 
             //outro para a horizontal.
-            for(int movimentoh = 0; movimentoh < 1; movimentoh++){
+            for(int movimento = 0; movimento < 1; movimento++){
                 printf("Direita\n");
             }
         }
@@ -78,10 +78,10 @@ int main(){
 
     printf("\nCavalo:\n");
     //Loop aliado para movimentar o cavalo, duas casas para cima e uma para a Direita.
-    for(int movimentov = 0; movimentov < 1; movimentov++){
+    for(int movimento = 0; movimento < 1; movimento++){
 
         //Primeiro as duas casas para cima
-        for(int movimentoh = 0; movimentoh < 2; movimentoh++){
+        for(int movimento = 0; movimento < 2; movimento++){
             printf("Cima, ");
             
         }
