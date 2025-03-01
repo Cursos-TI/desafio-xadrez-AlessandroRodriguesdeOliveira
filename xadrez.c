@@ -20,7 +20,9 @@ void moverTorre(int casas){
 }
 
 void moverBispo(int casas){
-    
+    //faz a recursividade
+    if (casas > 0){
+
         //Um loop para o movimento vertical
         for(int movimento = 0; movimento < 1; movimento++){
             printf("Cima, ");
@@ -31,10 +33,13 @@ void moverBispo(int casas){
             }
         }
 
-        //faz a recursividade
-        if (casas > 0){
-            moverBispo(casas-1);
-        }
+
+        moverBispo(casas-1);
+    }
+    
+    
+
+        
            
 }
 
